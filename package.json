@@ -1,6 +1,6 @@
 {
   "name": "tonybrix",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "About Tony Brix",
   "main": "bin/tonybrix.js",
   "scripts": {
