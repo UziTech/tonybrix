@@ -1,0 +1,28 @@
+{
+  "name": "tonybrix",
+  "version": "0.0.0",
+  "description": "About Tony Brix",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UziTech/tonybrix.git"
+  },
+  "keywords": [
+    "tony",
+    "brix"
+  ],
+  "author": "Tony Brix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UziTech/tonybrix/issues"
+  },
+  "homepage": "https://github.com/UziTech/tonybrix#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-google": "^0.11.0"
+  }
+}
