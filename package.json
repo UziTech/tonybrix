@@ -2,7 +2,7 @@
   "name": "tonybrix",
   "version": "0.0.3",
   "description": "About Tony Brix",
-  "bin": "bin/tonybrix.js",
+  "bin": "./bin/tonybrix.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,7 +16,7 @@
     "tony",
     "brix"
   ],
-  "author": "Tony Brix",
+  "author": "Tony Brix <Tony@Brix.ninja>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/UziTech/tonybrix/issues"
