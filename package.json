@@ -2,7 +2,7 @@
   "name": "tonybrix",
   "version": "0.0.1",
   "description": "About Tony Brix",
-  "main": "src/index.js",
+  "main": "bin/tonybrix.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ."
