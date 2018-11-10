@@ -2,9 +2,12 @@
   "name": "tonybrix",
   "version": "0.0.4",
   "description": "About Tony Brix",
-  "bin": "./bin/tonybrix.js",
-  "main": "index.js",
+  "bin": {
+    "tonybrix": "./src/index.js"
+  },
+  "main": "src/index.js",
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ."
   },
@@ -14,7 +17,9 @@
   },
   "keywords": [
     "tony",
-    "brix"
+    "brix",
+    "person",
+    "contact"
   ],
   "author": "Tony Brix <Tony@Brix.ninja>",
   "license": "MIT",
@@ -23,7 +28,12 @@
   },
   "homepage": "https://github.com/UziTech/tonybrix#readme",
   "devDependencies": {
-    "eslint": "^5.9.0",
-    "eslint-config-google": "^0.11.0"
+    "eslint": "^5.9.0"
+  },
+  "dependencies": {
+    "ansi-colors": "^3.2.1",
+    "justified": "1.0.1",
+    "opn": "^5.4.0",
+    "terminal-kit": "^1.26.4"
   }
 }
