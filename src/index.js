@@ -79,12 +79,15 @@ and everybody.
 const websites = {
 	Website: "https://tony.brix.ninja",
 	GitHub: "https://github.com/UziTech",
-	NPM: "https://www.npmjs.com/~tonybrix",
+	NPM: "https://npmjs.com/~tonybrix",
 	Atom: "https://atom.io/users/UziTech/packages",
 	Twitter: "https://twitter.com/tonybrix",
+	LinkedIn: "https://linkedin.com/in/tonybrix",
 };
 
-const labels = Object.keys(websites);
+const websiteNames = Object.keys(websites);
+const tab = websiteNames.reduce((max, w) => Math.max(w.length, max), 0) + 1;
+const labels = websiteNames.map(w => `${w}:${" ".repeat(tab - w.length)}${websites[w]}`);
 
 async function showPrompt(selectedIndex = 0) {
 	terminal.bold.green("Learn More?");
@@ -102,11 +105,13 @@ async function showPrompt(selectedIndex = 0) {
 	}).promise;
 
 
-	const text = response.selectedText;
-	if (text && text in websites) {
-		opn(websites[text]);
+	const index = response.selectedIndex;
+	if (index < websiteNames.length) {
+		opn(websites[websiteNames[index]]).catch((err) => {
+			terminal.red(err.message);
+		});
 		terminal.up(labels.length + 2);
-		return showPrompt(response.selectedIndex);
+		return showPrompt(index);
 	}
 
 	process.exit();

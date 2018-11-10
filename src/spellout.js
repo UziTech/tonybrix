@@ -2,7 +2,7 @@ const justify = require("justified");
 const color = require("ansi-colors");
 
 const defaults = {
-	ms: 20,
+	ms: 30,
 	maxWidth: null,
 	indent: 0,
 	color: null,
