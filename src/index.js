@@ -3,78 +3,19 @@
 const {terminal} = require("terminal-kit");
 const opn = require("opn");
 const spellout = require("./spellout.js");
+const fs = require("fs");
+const path = require("path");
 
-const bigName = `
- ----------------      -----------       ----      ----   ------      ------
-|                |    /           \\     |    \\    |    |  \\     \\    /     /
-|                |   /             \\    |     \\   |    |   \\     \\  /     /
- -----      -----   |     -----     |   |      \\  |    |    \\     \\/     /
-      |    |        |    /     \\    |   |       \\ |    |     \\          /
-      |    |        |   |       |   |   |        \\|    |      \\        /
-      |    |        |   |       |   |   |              |       \\      /
-      |    |        |   |       |   |   |              |        |    |
-      |    |        |   |       |   |   |    |\\        |        |    |
-      |    |        |    \\     /    |   |    | \\       |        |    |
-      |    |        |     -----     |   |    |  \\      |        |    |
-      |    |         \\             /    |    |   \\     |        |    |
-      |    |          \\           /     |    |    \\    |        |    |
-       ----            -----------       ----      ----          ----
+// eslint-disable-next-line no-sync
+const bigName = fs.readFileSync(path.resolve(__dirname, "./bigName.txt"), {encoding: "utf8"});
 
- --------------      --------------      --------------   ------      ------
-|              \\    |              \\    |              |  \\     \\    /     /
-|     -----     \\   |     -----     \\   |              |   \\     \\  /     /
-|    |     \\    |   |    |     \\    |    ----      ----     \\     \\/     /
-|    |     /    |   |    |     /    |        |    |          \\          /
-|     -----     /   |     -----     /        |    |           \\        /
-|              /    |              /         |    |            \\      /
-|              \\    |           ---          |    |            /      \\
-|     -----     \\   |    |\\     \\            |    |           /        \\
-|    |     \\    |   |    | \\     \\           |    |          /          \\
-|    |     /    |   |    |  \\     \\      ----      ----     /     /\\     \\
-|     -----     /   |    |   \\     \\    |              |   /     /  \\     \\
-|              /    |    |    \\     \\   |              |  /     /    \\     \\
- --------------      ----      ------    --------------   ------      ------
-`;
-
-const smallName = `
- _______
-|__   __|
-   | |  ___   _ __   _   _
-   | | / _ \\ | '_ \\ | | | |
-   | || (_) || | | || |_| |
-   |_| \\___/ |_| |_| \\__, |
-                      __/ |
-   ____         _    |___/
-  |  _ \\       (_)
-  | |_) | _ __  _ __  __
-  |  _ < | '__|| |\\ \\/ /
-  | |_) || |   | | >  <
-  |____/ |_|   |_|/_/\\_\\
-`;
+// eslint-disable-next-line no-sync
+const smallName = fs.readFileSync(path.resolve(__dirname, "./smallName.txt"), {encoding: "utf8"});
 
 const justName = "Tony Brix";
 
-const about = `
-When I was nine years old I found QBasic on my parent’s computer. It quickly \
-became my favorite game. Ever since then I have been intrigued by computers \
-and programming languages.
-
-There are about 40 languages in which I have written at least one program. My \
-favorite languages are Javascript, PHP and C#. I continue to learn more every \
-day and keep up with today’s advancing technologies.
-
-I started my own computer repair business in high school, mostly working for \
-family members and friends. Also in high school I started freelance \
-programming through websites such as GetACoder.com and others. I have worked on \
-many projects with many different kinds of people and have been able to work \
-with every one of them successfully.
-
-I am a very easy going and open person who thinks logically about every \
-decision. I consider myself a very lucky person to have found what I want to \
-do for the rest of my life at a very early age. To answer every high school \
-counselor’s question, if I had $1,000,000 I would write programs for anybody \
-and everybody.
-`;
+// eslint-disable-next-line no-sync
+const about = fs.readFileSync(path.resolve(__dirname, "./about.txt"), {encoding: "utf8"});
 
 const websites = {
 	Website: "https://tony.brix.ninja",
@@ -98,10 +39,11 @@ async function showPrompt(selectedIndex = 0) {
 	], {
 		selectedIndex,
 		cancelable: true,
-		style: terminal.white,
+		style: terminal.brightYellow,
 		leftPadding: "   ",
 		selectedLeftPadding: " > ",
-		submittedLeftPadding: " > ",
+		submittedLeftPadding: "   ",
+		submittedStyle: terminal.brightYellow,
 	}).promise;
 
 
@@ -146,7 +88,7 @@ async function output() {
 	await spellout(about, {
 		maxWidth: terminal.width - textIndext * 2,
 		indent: textIndext,
-		color: ["bold", "blue"]
+		color: ["bold", "blueBright"]
 	});
 
 	await showPrompt();
