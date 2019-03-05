@@ -31,7 +31,7 @@
     "eslint": "^5.13.0"
   },
   "dependencies": {
-    "ansi-colors": "^3.2.3",
+    "ansi-colors": "^3.2.4",
     "justified": "1.0.1",
     "opn": "^5.4.0",
     "terminal-kit": "^1.26.11"
