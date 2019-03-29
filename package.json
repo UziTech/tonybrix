@@ -33,7 +33,7 @@
   "dependencies": {
     "ansi-colors": "^3.2.4",
     "justified": "1.0.1",
-    "opn": "^5.5.0",
+    "open": "^6.0.0",
     "terminal-kit": "^1.27.2"
   }
 }
