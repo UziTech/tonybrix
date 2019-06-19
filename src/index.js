@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const {terminal} = require("terminal-kit");
-const opn = require("opn");
+const open = require("open");
 const spellout = require("./spellout.js");
 const fs = require("fs");
 const path = require("path");
@@ -49,7 +49,7 @@ async function showPrompt(selectedIndex = 0) {
 
 	const index = response.selectedIndex;
 	if (index < websiteNames.length) {
-		opn(websites[websiteNames[index]]).catch((err) => {
+		open(websites[websiteNames[index]]).catch((err) => {
 			terminal.red(err.message);
 		});
 		terminal.up(labels.length + 2);
