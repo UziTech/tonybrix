@@ -1,3 +1,11 @@
+## [1.0.7](https://github.com/UziTech/tonybrix/compare/v1.0.6...v1.0.7) (2019-06-19)
+
+
+### Bug Fixes
+
+* **deps:** opn -> open ([22a62bd](https://github.com/UziTech/tonybrix/commit/22a62bd))
+* **deps:** update dependency ansi-colors to v4 ([934408f](https://github.com/UziTech/tonybrix/commit/934408f))
+
 ## [1.0.6](https://github.com/UziTech/tonybrix/compare/v1.0.5...v1.0.6) (2019-06-13)
 
 
