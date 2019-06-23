@@ -1,6 +1,6 @@
 {
   "name": "tonybrix",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "About Tony Brix",
   "bin": {
     "tonybrix": "./src/index.js"
