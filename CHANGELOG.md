@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/UziTech/tonybrix/compare/v1.0.8...v1.0.9) (2019-06-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency open to ^6.4.0 ([5502b49](https://github.com/UziTech/tonybrix/commit/5502b49))
+
 ## [1.0.8](https://github.com/UziTech/tonybrix/compare/v1.0.7...v1.0.8) (2019-06-23)
 
 
