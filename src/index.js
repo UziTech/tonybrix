@@ -94,4 +94,5 @@ async function output() {
 	await showPrompt();
 }
 
+process.title = "Tony Brix";
 output();
