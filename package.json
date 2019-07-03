@@ -40,7 +40,7 @@
     "semantic-release": "^15.13.18"
   },
   "dependencies": {
-    "ansi-colors": "^4.1.0",
+    "ansi-colors": "^4.1.1",
     "justified": "1.0.1",
     "open": "^6.4.0",
     "terminal-kit": "^1.28.2"
