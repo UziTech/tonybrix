@@ -1,3 +1,16 @@
+# [1.1.0](https://github.com/UziTech/tonybrix/compare/v1.0.10...v1.1.0) (2019-07-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ansi-colors to ^4.1.1 ([d19b68b](https://github.com/UziTech/tonybrix/commit/d19b68b))
+* **deps:** update dependency ansi-colors to ^4.1.1 ([#36](https://github.com/UziTech/tonybrix/issues/36)) ([3811b72](https://github.com/UziTech/tonybrix/commit/3811b72))
+
+
+### Features
+
+* **title:** Set process.title ([d1b5de6](https://github.com/UziTech/tonybrix/commit/d1b5de6))
+
 ## [1.0.10](https://github.com/UziTech/tonybrix/compare/v1.0.9...v1.0.10) (2019-07-02)
 
 
