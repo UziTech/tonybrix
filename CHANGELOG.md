@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/UziTech/tonybrix/compare/v1.1.9...v1.1.10) (2019-10-27)
+
+
+### Bug Fixes
+
+* update open with url option ([c8a8abb](https://github.com/UziTech/tonybrix/commit/c8a8abb73b6437b7b693d71acf9a51102167ab9c))
+
 ## [1.1.9](https://github.com/UziTech/tonybrix/compare/v1.1.8...v1.1.9) (2019-10-02)
 
 
