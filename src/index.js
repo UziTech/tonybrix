@@ -49,7 +49,7 @@ async function showPrompt(selectedIndex = 0) {
 
 	const index = response.selectedIndex;
 	if (index < websiteNames.length) {
-		open(websites[websiteNames[index]]).catch((err) => {
+		open(websites[websiteNames[index]], {url: true}).catch((err) => {
 			terminal.red(err.message);
 		});
 		terminal.up(labels.length + 2);

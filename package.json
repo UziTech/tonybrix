@@ -42,7 +42,7 @@
   "dependencies": {
     "ansi-colors": "^4.1.1",
     "justified": "1.0.1",
-    "open": "^6.4.0",
+    "open": "^7.0.0",
     "terminal-kit": "^1.31.4"
   }
 }
