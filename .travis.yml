@@ -16,7 +16,7 @@ jobs:
 
     - stage: release 🎉
       if: branch = master && type != pull_request
-      script: npm run semantic-release
+      script: npx semantic-release
       node_js: lts/*
 
 cache:

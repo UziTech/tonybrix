@@ -9,8 +9,7 @@
   "scripts": {
     "start": "node .",
     "test": "jasmine ./spec/tests.js",
-    "lint": "eslint .",
-    "semantic-release": "semantic-release"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
