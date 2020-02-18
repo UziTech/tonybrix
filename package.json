@@ -42,6 +42,6 @@
     "ansi-colors": "^4.1.1",
     "justified": "1.0.1",
     "open": "^7.0.2",
-    "terminal-kit": "^1.32.3"
+    "terminal-kit": "^1.33.15"
   }
 }
