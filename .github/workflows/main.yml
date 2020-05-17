@@ -37,7 +37,7 @@ jobs:
         run: npm run lint
 
   Release:
-    needs: [Test, Coverage, Lint]
+    needs: [Test, Lint]
     if: |
       github.ref == 'refs/heads/master' &&
       github.event.repository.fork == false
