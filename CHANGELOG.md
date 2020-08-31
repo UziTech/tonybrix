@@ -1,3 +1,10 @@
+## [1.1.40](https://github.com/UziTech/tonybrix/compare/v1.1.39...v1.1.40) (2020-08-31)
+
+
+### Bug Fixes
+
+* update about ([619b6a7](https://github.com/UziTech/tonybrix/commit/619b6a7df432ac0ba74469488f0fd7162f7a6f08))
+
 ## [1.1.39](https://github.com/UziTech/tonybrix/compare/v1.1.38...v1.1.39) (2020-08-28)
 
 
