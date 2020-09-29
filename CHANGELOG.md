@@ -1,3 +1,10 @@
+## [1.1.41](https://github.com/UziTech/tonybrix/compare/v1.1.40...v1.1.41) (2020-09-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency open to ^7.3.0 ([9a3a52c](https://github.com/UziTech/tonybrix/commit/9a3a52c67009451facb3826690e4eb5031857d58))
+
 ## [1.1.40](https://github.com/UziTech/tonybrix/compare/v1.1.39...v1.1.40) (2020-08-31)
 
 
