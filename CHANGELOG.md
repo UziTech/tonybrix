@@ -1,3 +1,10 @@
+## [1.1.42](https://github.com/UziTech/tonybrix/compare/v1.1.41...v1.1.42) (2020-10-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency terminal-kit to ^1.44.0 ([4056e5d](https://github.com/UziTech/tonybrix/commit/4056e5d758a309ebdcf25854e082c4eb78f3fc6b))
+
 ## [1.1.41](https://github.com/UziTech/tonybrix/compare/v1.1.40...v1.1.41) (2020-09-29)
 
 
