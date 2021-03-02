@@ -1,3 +1,10 @@
+## [1.1.65](https://github.com/UziTech/tonybrix/compare/v1.1.64...v1.1.65) (2021-03-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency open to v8 ([97ad96a](https://github.com/UziTech/tonybrix/commit/97ad96aa1a57dc2362d456206213ee3598df92a3))
+
 ## [1.1.64](https://github.com/UziTech/tonybrix/compare/v1.1.63...v1.1.64) (2021-03-01)
 
 
