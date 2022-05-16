@@ -1,3 +1,10 @@
+## [1.1.99](https://github.com/UziTech/tonybrix/compare/v1.1.98...v1.1.99) (2022-05-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ansi-colors to ^4.1.3 ([b2c7b22](https://github.com/UziTech/tonybrix/commit/b2c7b22df89fd6ec323f9ccb2e1546c94944d714))
+
 ## [1.1.98](https://github.com/UziTech/tonybrix/compare/v1.1.97...v1.1.98) (2022-05-15)
 
 
