@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/UziTech/tonybrix/compare/v1.1.120...v1.2.0) (2023-02-09)
+
+
+### Features
+
+* remove Atom link ([ba81f03](https://github.com/UziTech/tonybrix/commit/ba81f03fab0544c925463834f4de081ffd961683))
+
 ## [1.1.120](https://github.com/UziTech/tonybrix/compare/v1.1.119...v1.1.120) (2023-02-08)
 
 
