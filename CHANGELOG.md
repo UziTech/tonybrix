@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/UziTech/tonybrix/compare/v1.2.1...v1.3.0) (2023-03-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency open to v9 ([0f7c4bb](https://github.com/UziTech/tonybrix/commit/0f7c4bbfacf323c69a727b1c1111d5c170eccd6e))
+
+
+### Features
+
+* make esm module ([e24b669](https://github.com/UziTech/tonybrix/commit/e24b669f38716e871d645b97771ae39e0326a719))
+
 ## [1.2.1](https://github.com/UziTech/tonybrix/compare/v1.2.0...v1.2.1) (2023-02-20)
 
 
