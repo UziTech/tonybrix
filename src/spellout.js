@@ -1,5 +1,5 @@
-const justify = require("justified");
-const color = require("ansi-colors");
+import justify from "justified";
+import color from "ansi-colors";
 
 const defaults = {
 	ms: 30,
@@ -14,7 +14,7 @@ async function sleep(ms) {
 	});
 }
 
-async function spellout(text, options) {
+export async function spellout(text, options) {
 	const opts = {...defaults, ...options};
 
 	let lines = text.split("\n");
@@ -51,5 +51,3 @@ async function spellout(text, options) {
 		}
 	}
 }
-
-module.exports = spellout;
