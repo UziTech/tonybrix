@@ -37,7 +37,7 @@
     "@semantic-release/release-notes-generator": "^12.1.0",
     "eslint": "^8.53.0",
     "jasmine": "^5.1.0",
-    "semantic-release": "^22.0.7"
+    "semantic-release": "^22.0.8"
   },
   "dependencies": {
     "ansi-colors": "^4.1.3",
