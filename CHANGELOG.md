@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/UziTech/tonybrix/compare/v1.3.3...v1.3.4) (2023-12-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency open to ^10.0.1 ([66a0a43](https://github.com/UziTech/tonybrix/commit/66a0a43f001d1eade4c528e7e1f31561339b9685))
+
 ## [1.3.3](https://github.com/UziTech/tonybrix/compare/v1.3.2...v1.3.3) (2023-12-19)
 
 
