@@ -24,7 +24,6 @@ const websites = {
 	Website: "https://tony.brix.ninja",
 	GitHub: "https://github.com/UziTech",
 	NPM: "https://npmjs.com/~tonybrix",
-	Twitter: "https://twitter.com/tonybrix",
 	LinkedIn: "https://linkedin.com/in/tonybrix",
 };
 
