@@ -1,3 +1,10 @@
+## [1.3.12](https://github.com/UziTech/tonybrix/compare/v1.3.11...v1.3.12) (2025-03-08)
+
+
+### Bug Fixes
+
+* remove twitter ([991e5b1](https://github.com/UziTech/tonybrix/commit/991e5b1eab0c70623ef67412b4ad5b9c4ddafc27))
+
 ## [1.3.11](https://github.com/UziTech/tonybrix/compare/v1.3.10...v1.3.11) (2025-01-12)
 
 
