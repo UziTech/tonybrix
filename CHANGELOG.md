@@ -1,3 +1,10 @@
+## [1.3.13](https://github.com/UziTech/tonybrix/compare/v1.3.12...v1.3.13) (2025-03-08)
+
+
+### Bug Fixes
+
+* fix release ([4720e69](https://github.com/UziTech/tonybrix/commit/4720e692a7c82bb5c647d7cb8af4deab091b764c))
+
 ## [1.3.12](https://github.com/UziTech/tonybrix/compare/v1.3.11...v1.3.12) (2025-03-08)
 
 
