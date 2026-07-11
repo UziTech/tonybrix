@@ -39,7 +39,7 @@
     "eslint": "^10.6.0",
     "globals": "^17.7.0",
     "jasmine": "^6.3.0",
-    "semantic-release": "^25.0.5"
+    "semantic-release": "^25.0.6"
   },
   "dependencies": {
     "ansi-colors": "^4.1.3",
